@@ -1,0 +1,904 @@
+/************
+COLORS
+Bronze: #9d6534
+Blue: #013950
+Teal: #3b827e
+Tan: #e2bc9f
+
+************/
+
+/***********************************************************HOME PAGE********/
+
+/*GLOBAL*/
+
+body{
+  background: #3b837e;
+  width: 100%;
+}
+
+.home_header {
+  width: 100%;
+  background:#3b827e;
+  background-repeat: no-repeat;
+  height: 790px;
+  background-image: url("../img/cover2.png");
+  background-size: cover;
+}
+
+/*NAVIGATION*/
+
+ul{
+  list-style: none;
+  display: inline-block;
+  float: right;  
+}
+
+ul li{
+  display: inline-block;
+  padding: 10px;
+  margin-top: -15px;
+}
+
+nav a{
+  color: white;
+  text-decoration: none;
+  display: inline-block;  
+}
+
+.nav{
+  background: rgba(157, 101, 52, .4);
+  height: 40px;
+  font-family: 'Raleway', sans-serif;
+}
+
+nav ul li:hover{
+  background: rgba(0, 57, 80, .8);
+  border-radius: 50%;
+}
+
+/*LAYOUT*/
+
+.arrow{
+  margin: auto;
+}
+
+
+/*TYPOGRAPHY
+
+font-family: 'Oswald', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Sofia', cursive;
+
+*/
+
+.bio{
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  float: right;
+  width: 50%;
+  border: #3b827e solid;
+  margin-top: -20px;
+  font-size: 120%;
+  line-height: 1.5em;
+}
+
+.hello {
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  font-size: 400%;
+  float: right;
+  width: 50%;
+  border-bottom: white solid;
+  margin-top: 100px;
+}
+
+
+/*IMAGES*/
+
+.about{
+  width: 70%;
+  margin: auto;
+}
+
+.profile {
+  width: 40%;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  display: inline-block;
+}
+
+footer{
+  width: 65%;
+  margin: auto;
+  margin-top: -50px;
+  padding-bottom: 80px;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 120%;
+  text-align: center;
+}
+
+.contact{
+  width: 65%;
+  margin: auto;
+}
+.phone,
+.number,
+.email,
+.env{
+  display: inline;
+}
+
+.contact{
+  font-family: 'Sofia', cursive;
+  font-size: 300%;
+}
+
+
+.phone,
+.env{
+  width: 7%;
+  margin-left: 40px;
+  padding-right: 20px;
+}
+
+
+
+/********************************************************RESUME********/
+/************
+COLORS
+Bronze: #9d6534
+Blue: #013950
+Teal: #3b827e
+Tan: #e2bc9f
+
+font-family: 'Oswald', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Sofia', cursive;
+************/
+
+/*GLOBAL*/
+
+.resume_body{
+  background: #3b827e;
+}
+
+.main_content{
+  width: 70%;
+  padding: 30px;
+  margin: auto;
+  color: white;
+  border-left: white solid;
+  font-family: 'Raleway', sans-serif;
+}
+
+.flower{
+  width: 80%;
+  margin-right: -300px;
+  float: right;
+
+}
+/*TYPOGRAPHY*/
+
+.resume_name{
+  font-family: 'Oswald', sans-serif;
+  font-size: 400%
+}
+
+.vcd{
+  font-family: 'Sofia', cursive;
+  margin-top: -40px;
+  margin-bottom: 55px;
+  padding-bottom: 15px;
+  width: 50%;
+  border-bottom: white double 5px;
+  font-size: 200%
+}
+
+.title{
+  font-family: 'Oswald', sans-serif;
+  font-size: 200%
+}
+
+.school{
+  font-size: 130%
+}
+
+.degree{
+ padding-left: 40px;
+}
+
+
+/*SKILLS/CONTACT*/
+
+.skill_set{
+  width: 70%;
+  margin: auto;
+  color: white;
+  font-size: 130%;
+  font-family: 'Raleway', sans-serif;
+}
+
+.skills{
+  font-family: 'Oswald', sans-serif;
+  font-size: 200%;
+  border-bottom: white double 5px;
+  width: 50%;
+  margin-bottom: -3px;
+}
+
+.skills_list li{
+  width: 50%;
+  display: inline-block;
+  margin-top: -50px;
+}
+
+
+
+
+
+/*NAV*/
+
+.resume_nav{
+  background: rgba(0, 57, 80, .7);
+  height: 40px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.resume_nav ul li:hover{
+  background: rgba(0, 57, 80, .8);
+  background: rgba(157, 101, 52, .8);
+  border-radius: 50%;
+}
+
+
+/***********************************************************PORTFOLIO********/
+/************
+COLORS
+Bronze: #9d6534
+Blue: #013950
+Teal: #3b827e
+Tan: #e2bc9f
+
+font-family: 'Oswald', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Sofia', cursive;
+************/
+
+/*NAV*/
+
+#port-body {
+  background-color: #9d6534;
+  width: 100%;
+  background: url(../img/flower_portfolio.png) center;
+  background-size: 155%;
+  background-repeat: no-repeat;
+
+}
+
+.portfolio_nav{
+  background: rgba(0, 57, 80, .9);
+  height: 40px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.portfolio_nav ul li:hover{
+  background: rgba(0, 57, 80, .8);
+  background: rgba(157, 101, 52, .8);
+  border-radius: 50%;
+}
+
+
+
+/********************
+http://sonspring.com/journal/hoverbox-image-gallery
+***********************/
+
+
+a .port-link {
+	text-decoration: none;
+}
+
+.port-container {
+	background: rgba(0, 57, 80, .9);
+	color: white;
+	margin: 50px auto;
+	padding: 50px;
+	position: relative;
+	width: 60%;
+}
+
+.port-title {
+	border-bottom: 5px double white;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+    font-size: 300%;
+	margin: 0 0 10px;
+	padding: 0 0 5px;
+	text-align: center;
+}
+
+#footer {
+	clear: both;
+	font-family: 'Raleway', sans-serif;
+	padding: 10px 0;
+	text-align: center;
+}
+
+/* =Hoverbox Code
+----------------------------------------------------------------------*/
+
+.hoverbox {
+	cursor: default;
+	list-style: none;
+}
+
+.hoverbox a {
+	cursor: default;
+}
+
+.hoverbox a .preview {
+	display: none;
+}
+
+.hoverbox a:hover .preview {
+	display: block;
+	position: absolute;
+	top: -33px;
+	left: -45px;
+	z-index: 1;
+    cursor: pointer;
+    background: white;
+	display: inline;
+	padding: 7px;
+
+}
+
+.hoverbox img {
+	padding: 2px;
+	vertical-align: top;
+	width: 200px;
+	height: 150px;
+}
+
+.hoverbox li {
+	background: white;
+	display: inline;
+	float: left;
+	margin: 7px;
+	padding: 5px;
+	position: relative;
+}
+
+.hoverbox .preview {
+	border-color: #000;
+	width: 400px;
+	height: 300px;
+}
+
+
+
+
+/************************************************PORTFOLIO LINKS*****/
+
+/*UNIVERSAL*/
+
+.bug_nav{
+  background: rgba(0, 57, 80, .9);
+  height: 40px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.bug_nav ul li:hover{
+  background: rgba(157, 101, 52, .8);
+  border-radius: 50%;
+}
+
+.about-art{
+  width:70%;
+  font-size: 125%;
+  margin: auto;
+  padding-top: 10px;
+}
+
+#bug-body {
+  background-color: #9d6534;
+  width: 100%;
+  background: url(../img/flower_portfolio.png) center;
+  background-size: 155%;
+  background-repeat: repeat;
+}
+
+.description {
+	background: rgba(0, 57, 80, .9);
+	color: white;
+	margin: 50px auto;
+	padding: 50px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    width: 70%;
+}
+
+.piece-title {
+	border-bottom: 5px double white;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+    font-size: 300%;
+	margin: 0 0 10px;
+	padding: 0 0 5px;
+	text-align: center;
+}
+
+#back a{
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  float: right;
+  text-decoration: none;
+  padding: 20px;
+  margin-top: -20px;
+}
+
+#back a:hover{
+  background: rgba(59, 131, 126, .8);
+  border-radius: 50%;
+}
+
+
+/*BUG*/
+
+.bug-img{
+  width: 100%;
+  margin: auto;
+  margin-top: 10px
+}
+
+
+/*SORRY*/
+
+.sorry-img {
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 10%;
+  margin-top: 10px;
+}
+
+.sorry-img-2 {
+  width: 40%;
+}
+
+/*SIGNAL*/
+
+.signal-png {
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 10px;
+}
+
+
+/*HARWARD*/
+
+.logo-img {
+   width: 40%;
+  margin-left: 5%;
+  margin-right: 10%;
+  margin-top: 10px;
+}
+
+.logo-img-2 {
+   width: 40%;
+}
+
+
+/*OCEAN*/
+
+.ocean-img {
+  width: 30%;
+  margin-left: 35%;
+  margin-top: 10px;
+}
+
+/*MAP*/
+
+.map-img{
+  width: 30%;
+  margin-left: 35%;
+  margin-top: 10px;
+}
+
+
+/*MAP*/
+
+.paris-img{
+  width: 30%;
+  margin-top: 10px;
+}
+
+.lon-img{
+  width: 30%;
+  margin: 0 4%;
+}
+
+.ny-img{
+ width: 30%;
+}
+
+
+/*ENGINE*/
+
+.engine-img{
+  width: 30%;
+  margin-left: 35%;
+  margin-top: 10px;
+}
+
+/*INDIA*/
+
+.india-img{
+  width: 30%;
+  margin-left: 35%;
+  margin-top: 10px;
+}
+
+
+/*MICHAEL*/
+
+.mike-img{
+  width: 40%;
+  margin-left: 30%;
+  margin-top: 10px;
+}
+
+/*SATORI*/
+
+.satori-img{
+  width: 100%;
+  margin-left: ;
+  margin-top: 10px;
+}
+
+/*NIKE*/
+
+.nike-img{
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 10px;
+}
+
+
+
+/***********************************************
+***********************************************
+MEDIA QUERIES
+***********************************************
+************************************************/
+
+
+
+@media screen and (max-width: 1415px){
+  #port-body{
+    background-color: #9d6534;
+    width: 100%;
+    background: url(../img/flower_portfolio.png) center;
+    background-size: 155%;
+    background-repeat: repeat;
+  }
+}
+
+
+@media screen and (max-width: 1540px){
+  .home_header {
+  background-size: contain;
+  }
+}
+
+
+
+
+
+@media screen and (max-width: 1300px){
+  .about{
+  margin-top: -120px;
+  }
+}
+
+
+
+
+  
+@media screen and (max-width: 1190px){
+  footer{
+    width: 45%;
+    float: right;
+  }
+  
+  .contact{
+    line-height: 1em
+  }
+  
+  .phone,
+  .env{
+    width:10%;
+    margin:auto;
+    padding: 10px;
+    display: block
+  }
+  
+  .about{
+    margin-top: -180px;
+  }
+  
+}
+
+
+
+
+
+@media screen and (max-width: 960px){
+  .hoverbox a:hover .preview {
+	display: none;
+  }
+
+  .nav,
+  .resume_nav,
+  .portfolio_nav,
+  .bug_nav{
+    height: 60px;
+    font-size: 150%;
+  }
+  
+  ul{
+    width: 100%;
+    text-align: center;
+  }
+  
+  
+  .arrow{
+    display: none;
+  }
+  
+  .about{
+  margin-top: -300px;
+  }
+
+  .bio{
+  margin-top: -20px;
+  font-size: 100%;
+}
+  
+.hello {
+  font-size: 300%;
+  margin-top: 60px;
+}
+
+.profile{
+  width: 45%
+}
+
+footer{
+  float: none;
+  width: 65%;
+  margin: auto;
+  margin-top: -30px;
+  padding-bottom: 80px;
+  font-size: 100%;
+}
+
+.contact{
+  padding-bottom: 10px;
+}
+  
+.number,
+.email{
+  font-size: 130%;
+}
+
+.phone,
+.env{
+  display: inline;
+}
+  
+}
+
+
+
+@media screen and (max-width: 787px){
+  .profile{
+    width: 100%;
+    display: block;
+    margin-top: 0px;
+  }
+
+  .bio{
+    width: 100%;
+    padding-bottom: 30px;
+  }
+  
+  .hello {
+    width: 100%;
+    text-align: center;
+    margin-top: -70px
+  }
+  
+  footer{
+    width: 70%;
+  }
+  
+  .contact{
+    width: 100%;
+    font-size: 400%;
+  }
+  
+  .resume_name{
+    font-size: 300%;
+    width: 50%
+  }
+  
+  .vcd{
+    font-size: 150%;
+    width: 65%;
+    padding-top: 10px;
+  }
+  
+  .flower{
+  width: 59%;
+  margin-right: -110px;
+  float: right;
+  }
+  
+
+  .title{
+    font-size: 180%;
+  }
+  
+  .school{
+  font-size: 115%
+}
+
+  .degree{
+  font-size:90%;
+ padding-left: 40px;
+  }
+
+  .skills{
+  font-size: 180%;
+  }
+  
+.skills_list li{
+  width: 100%;
+  text-align: left;
+}
+  
+}
+
+
+@media screen and (max-width: 839px){
+   .nav,
+    .resume_nav,
+    .portfolio_nav,
+    .bug_nav{
+    background: none;
+  }
+  
+  .nav ul{
+   background: rgba(157, 101, 52, .4);
+   margin-top: 0px;
+  }
+
+  .resume_nav ul,
+  .portfolio_nav ul,
+  .bug_nav ul {
+    background: rgba(0, 57, 80, .9);
+    margin-top: 0px;
+  }
+  
+}
+
+
+
+@media screen and (max-width: 786px){
+  .flower{
+    display: none;
+  }
+
+    .resume_name,
+  .vcd{
+    width: 100%
+  }
+  
+  
+}
+
+
+
+
+@media screen and (max-width: 640px){
+
+  .home_header {
+  background-image: url("../img/cover-extended.png");
+}
+
+  .about{
+    margin-top: -150px;
+  }
+  
+
+  
+}
+
+
+
+@media screen and (max-width: 560px){
+  .about{
+    margin-top: -220px;
+  }
+
+}
+
+
+@media screen and (max-width: 486px){
+  .vcd{
+    font-size: 135%
+  }
+}
+
+
+
+@media screen and (max-width: 400px){
+  .about{
+    margin-top: -360px;
+  }
+
+  .vcd{
+    font-size: 120%
+  }
+
+  .contact{
+    font-size: 250%;
+  }
+
+    .phone,
+  .env{
+    width:20%;
+    margin:auto;
+    padding: 10px;
+    display: block
+  }
+  
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
